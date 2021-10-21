@@ -1,0 +1,258 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+
+/* ------------GLOBAL------------------ */
+
+.promise__container,
+.impact__container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.titles__subtitle {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #5d62b5;
+    background: url("../img/icons/overline_mark.svg") -5px -2px no-repeat;
+    padding: 0 0 0 32px;
+    margin: 0 0 30px 0;
+}
+
+.titles__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 117%;
+}
+
+.titles__subtitle_white {
+    background: url("../img/icons/white_overline_mark.svg") -5px -2px no-repeat;
+    color: #fff;
+}
+
+
+/* -----------HEADER----------------- */
+
+.header {
+    padding: 50px;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    text-decoration: overline;
+    box-shadow: 0 10px 5px 3px #773030;
+}
+
+
+/* --------------MAIN------------- */
+
+.main {
+    background: #f5f5f5;
+}
+
+
+/* ----------------PROMISE-------------------- */
+
+.promise {
+    padding: 122px 0 202px;
+}
+
+.promise__heading {
+    margin: 0 0 68px 0;
+}
+
+.promise__items {
+    font-size: 0;
+}
+
+.promise__items>*:not(:last-child) {
+    margin: 0 24px 0 0;
+}
+
+.promise__item {
+    display: inline-block;
+    max-width: 324px;
+}
+
+.promise__image,
+.promise__content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.promise__image {
+    margin: 0 23px 0 0;
+}
+
+.promise__content {
+    max-width: 235px;
+}
+
+.promise__title {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 137%;
+    color: #f2726f;
+    margin: 0 0 20px 0;
+}
+
+.promise__text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+    color: #4b4b4b;
+}
+
+
+/* ------------------IMPACT------------------- */
+
+.impact {
+    background: url("../img/impact/background.png") 73% top no-repeat #29c3be;
+    font-size: 0;
+    padding: 105px 0;
+}
+
+.impact__heading {
+    margin: -180px 0 79px 0;
+}
+
+.impact__headings,
+.impact__image {
+    display: inline-block;
+}
+
+.impact__headings {
+    color: #fff;
+    max-width: 411px;
+    margin: 0 111px 0 0;
+    padding: 100px 0 0 0;
+    vertical-align: bottom;
+}
+
+.impact__image {
+    vertical-align: top;
+}
+
+.impact__img {
+    border-radius: 40px;
+    margin: 0 0 5px 0;
+}
+
+.impact__items>*:not(:last-child) {
+    padding: 0 24px 0 0;
+}
+
+.impact__item {
+    display: inline-block;
+    width: 25%;
+}
+
+.impact__icon,
+.impact__content,
+.impact__item {
+    vertical-align: top;
+}
+
+.impact__icon {
+    margin: 0 11px 0 0;
+}
+
+.impact__content {
+    display: inline-block;
+}
+
+.impact__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 117%;
+    color: #fff;
+    margin: 0 0 7px 0;
+}
+
+.impact__subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+    color: #5d62Bb;
+}
+
+
+/* -----------FOOTER----------------- */
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    border: 5px dashed #f2726f;
+    font-size: 70px;
+    color: transparent;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    font-weight: 900;
+    letter-spacing: 0;
+    text-shadow: 0 0 7px #8a2be2;
+    box-shadow: inset 0 0 100px 3px #8a2be2;
+}
